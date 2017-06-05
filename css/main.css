@@ -2,3 +2,126 @@
   padding: 0;
   margin: 0;
 }
+body{
+	font-family:'Source Sans Pro', sans-serif;
+}
+
+nav{
+	background-color: black;
+	padding: 10px 10px;
+	border-bottom: 3px solid yellow;
+	overflow:hidden;
+}
+nav h1{
+	color: yellow;
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+}
+nav a{
+	text-decoration: none;
+	padding: 10px 10px;
+	color: white;
+	float: right;
+	/*overflow: hidden;*/
+}
+.site{
+	margin: 0 auto;
+	/*width: 1280px;*/
+}
+#tagline{
+	background-color: #C6C6C6;
+	font-size: 25px;
+	font-family: 'Merriweather', serif;
+	font-style: italic;
+	text-align:center;
+	padding: 10px 10px;
+	/*width: 1280px;*/
+	width: 0 auto;
+}
+p{
+	margin: 0px 0px;
+}
+span{
+	text-decoration: line-through;
+	/*text-decoration-color: grey;*/
+}
+#underline span{
+	text-decoration: underline;
+}
+#one{
+	height: 645px;
+	background:url("../images/coworking.jpg")no-repeat center top;
+	background-size: cover;
+}
+#transbox{
+	width: 350px;
+	height: 200px;
+	float: right;
+	margin: 30px 30px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.7;
+	text-align: left;
+	padding: 30px 30px;
+}
+.button{
+	border-radius: 5px;
+	padding: 5px 5px;
+	font-family:'Oswald', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	width: auto;	
+}
+.button a{
+text-decoration: none;	
+color:black;
+font-family: 'Oswald', sans-serif;
+}
+#profile{
+	background-color: yellow;
+	margin: 20px 20px;	
+}
+#transbox h2{
+	font-weight: bold;
+}
+
+}
+h3{
+	font-family:'Merriweather', serif;
+	font-weight: lighter;
+}
+
+#boxes{
+	display: flex;
+}
+
+.box{
+	width: 350px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	padding: 30px 30px;
+	/*border-right: 5px grey;*/
+}
+.box p{
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+#start{
+	background-color:#C6C6C6;
+}
+
+#signup{
+	background-color: #C6C6C6;
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 15px 15px;
+	width: auto;
+}
+
+
+
+
+
